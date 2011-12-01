@@ -1,0 +1,21 @@
+Global setup:
+ Set up git     -> Indicates which user made the change
+1.  git config --global user.name "Your Name"
+2.  git config --global user.email smitathaker@gmail.com
+      
+Next steps:
+3.  mkdir HelloGit2
+4.  cd HelloGit2
+5.  git config color.ui true
+6.  git init        -> Initialize git
+7.  touch README
+8.  git add README
+9.  git commit -m 'first commit'
+10.  git remote add origin git@github.com:smitathaker/HelloGit2.git  -> Done once per repository. It tells your local computer that github is holding all ur files
+                                                                  -> declares git@github.com:smitathaker/HelloGit2.git as the origin
+11.  git push -u origin master           -> push all changes of master branch to the origin server.     
+      
+Existing Git Repo?
+4.  cd existing_git_repo
+5.  git remote add origin git@github.com:smitathaker/HelloGit2.git
+6.  git push -u origin master
