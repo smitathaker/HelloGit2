@@ -1,5 +1,5 @@
-if ($favChar == ''){
-    print "Your favorite is";
+if ($favChar == 'tanupa'){
+    print "Your favorite is tanupa";
 } else {
     print "\n YOu do not have any favorites.";
 }
