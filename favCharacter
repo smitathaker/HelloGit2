@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 if ($favChar == 'smita'){
     print "Your favorite is smita";
+=======
+if ($favChar == 'tanupa' || $favChar == 'smita'){
+    print "Your favorite is tanupa or tanupa";
+>>>>>>> 13d1c054a14818d33a4e5c269c89067c232f6c3b
 } else {
     print "\n YOu do not have any favorites.";
 }
