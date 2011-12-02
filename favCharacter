@@ -1,0 +1,5 @@
+if ($favChar == ''){
+    print "Your favorite is";
+} else {
+    print "\n YOu do not have any favorites.";
+}
